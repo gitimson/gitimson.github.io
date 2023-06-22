@@ -287,81 +287,6 @@
     backdrop-filter: blur(12vmax);
   }
   
-  /* -- Links -- */
-  
-  #links {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    z-index: 10;
-    padding: 1rem;
-  }
-  
-  .meta-link {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-  }
-  
-  .meta-link > :is(span, a) {
-    font-family: "Rubik", sans-serif;
-    font-size: 0.9rem;
-    color: white;
-  }
-  
-  .meta-link > .label {
-    width: 160px; 
-    text-align: right;
-  }
-  
-  .meta-link > a {
-    text-decoration: none;
-    outline: none;
-  }
-  
-  .meta-link > a.source {
-    color: rgb(94, 106, 210);
-  }
-  
-  .meta-link > a:is(:hover, :focus) > i {
-    color: white;  
-  }
-  
-  .meta-link > a.youtube {
-    color: rgb(239, 83, 80);
-  }
-  
-  .meta-link > a.youtube > i {
-    padding-top: 0.2rem; 
-  }
-  
-  .meta-link > a > i {
-    height: 1rem;
-    line-height: 1rem;
-  }
-.btn span{
-    position: relative;
-    z-index: 1;
-}
-.btn::before{
-    content: '';
-    position: absolute;
-    top: var(--y);
-    left: var(--x);
-    transform: translate(-50%,-50);
-    width: 0;
-    height: 0;
-    border-radius: 50%;
-    background: gray;
-    transition: width 0.5s, height 0.5s;
-}
-.btn:hover::before{
-    width: 80px;
-    height: 80px;
-}
 .music-container{
     background-color: #fff;
     border-radius: 15px;
@@ -378,7 +303,7 @@
     width: 110px;
 }
 .img-container::after{
-    content: '';
+    content: "";
     background-color: #fff;
     border-radius: 50%;
     position: absolute;
