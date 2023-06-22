@@ -23,44 +23,30 @@
       <nav class="navbar navbar-expand-lg px-5">
         <a class="navbar-brand fw-bolder fst-italic text-dark fs-6 animate__animated animate__fadeInRight" style="letter-spacing:.2em" href="index.html">Timsons</a>
         <div class="position-relative collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link text-dark fs-6" href="#" onclick="setLightMode()">light</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-dark fs-6" href="#" onclick="setDarkMode()">dark</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled">regal</a>
-            </a>
-            </li>
-          </ul>
         </div>
       </nav>
     </div>
     <div class="mt-5 pt-5 rounded border mx-5 px-5 bg-light text-black">   
-        <div class="h1 fw-bolder animate__animated animate__fadeIn animate__faster">Quixel Mixer Hot Tips (STILL WORKING ON THIS RECIPE)</div>
-        <p class="lead">Quixel Mixer is underestimated</p>
+        <div class="h1 fw-bolder animate__animated animate__fadeIn animate__faster">Rendering and Post Production Process</div>
+        <p class="lead">Always render more and better service than is expected of you, no matter what your task may be. <br> Og Mandino.</p>
+       
         <h3><i class="fa-solid fa-bag-shopping fa-2xs pe-2"></i>Ingredients:</h3>
         <ul>
-            <li>Quixel Mixer</li>
-            <li>Quixel Megascans</li>
+            <li>Marmoset 4</li>
+            <li>Ibis Paint</li>
         </ul>
         <p>
-            <span class="fw-bold h4">Edges, Cavities.</span> <br>
-            Inside Mask Stack: Curvature => Add Gaussian Blur, instead of using AO. If you do not like the results that Ambient Occlusion map gives you, try blurring the curvature to get a larger cavity feeling.
+            <span class="fw-bold h4">Lights and Color.</span> <br>
+            I use Sky Light and Fog Actors for ball renders and Spot Lights for wall renders. I always contrast my lights and is something that I really got used to. Just look at the color wheel and pick a color and look at the opposite side.
             <br>
             Duplicate the layer and place it above the current. Now blur the current layer and your edges will stand out more prominently or how I heard it "pop".
             <div class="w-100"></div>
-            <span class="fw-bold h4">Distort.</span> <br>
-            Distort blend mode works similarly to the Directional Warp in Substance Designer. You can distort an underlying mask component via the "Distort" slider. Try to apply a base albedo and distort a noise with it.
+            <span class="fw-bold h4">Camera and Render settings.</span> <br>
+           I always use ray tracing for soft shadows. I dont know what any parameters in Marmoset do, I just tick "Use Raytracing". For camera, playing around with the field of view slider can give unique fish-eye like effects. I dont use depth of field for this material as I thought it didnt fit the look.
             <div class="w-100 py-2"></div>
-            <span class="fw-bold h4">Tiling.</span> <br> If you've tiled your textures in Photoshop, then you will feel right at home. <br> Place your asset at the corners of the base plane. Mask out the parts that are blending in harshly. One upside to Mixer is that it can utilize this technique 3D information.
+            <span class="fw-bold h4">Post Production.</span> <br> I bring the images to my phone and use "Ibis Paint X". I do my post on my phone, because I like that I can do it anywhere, like while I am eating or while I am in the bus for example. I layer a dirty lens mask, noise and vignette at this stage and color correct.
             <div class="w-100 py-2"></div>
-            <span class="fw-bold h4">Displacement Cleanup.</span> <br> Duplicate your layer and blur it. Mask out the parts with harsh displacement.
-           
-            <div class="w-100 py-2"></div>
-            <span class="fw-bold h4">Base Map Blend Modes.</span> <br> Give base map blend modes a go, even if you dont understand what exactly is happening, they can provide very interesting looks.
+            <span class="fw-bold h4">Posting to ArtStation.</span> <br> Its essential to have a catchy thumbnail. By default ArtStation thumbnail resolution is 400x400. I use one of my ball renders, layer the Zbrush logo above it and call it done. (and also layering lens, noise, vignette as per usual)
         </p>
         
 </div>
