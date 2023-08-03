@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Boost your asset creation and rendering skills with detailed articles. Courses, 3D models, ZBrushes, SBS graphs and more.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
@@ -10,49 +11,46 @@
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" type="text/css" href="fonts/my-font.ttf">
     <link rel="shortcut icon" href="images/Unicorn.png" type="image/x-icon" />
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+
     <title>Timsons</title>
   </head>
   <body class="bg-black text-white">
-    <div class="ms-2 fixed-top rounded-start border border-end-0 border-2 border-primary-emphasis bg-white shadow-sm opacity-100">
+    <header class="ms-2 fixed-top rounded-start border border-end-0 border-2 border-primary-emphasis bg-white shadow-sm opacity-100">
       <nav class="navbar navbar-expand-lg px-5">
         <a class="navbar-brand fw-bolder fst-italic text-dark fs-6 animate__animated animate__fadeInRight animate__faster" style="letter-spacing:.2em" href="index.html">Timsons</a>
         <div class="position-relative collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link text-dark fs-6" href="#" onclick="setLightMode()">light</a>
+              <a class="nav-link text-dark fs-6" href="login.html">Login</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link text-dark fs-6" href="#" onclick="setDarkMode()">dark</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled">regal</a>
-            </a>
+          </div>
             </li>
           </ul>
         </div>
       </nav>
-    </div>
+    </header>
  
  <div style="background: no-repeat center/100% url(images/Space.jpg);">
   <section class="container-fluid px-5 pt-5">
-  <div class="d-flex flex-row justify-content-evenly py-5 mt-5 border rounded border-2 border-primary-subtle bg-white shadow-sm" style="background: repeat center/20% url(images/pattern.jpg);" >
+  <div class="d-flex flex-row justify-content-evenly py-5 mt-5 border rounded border-2 border-primary-subtle bg-black shadow-sm" >
   <div>
-    <a href = "recipes.html" class="shadow btn btn-primary bg-gradient btn-lg z-3" style="letter-spacing:0.1rem;">RECIPES</a>
+    <a href = "recipes.html" class="btn btn-primary bg-gradient btn-lg z-3" style="letter-spacing:0.1rem;"><span>RECIPES</span></a>
   </div>
   <div class="vr opacity-0"></div>
   <div>
-    <a href = "products.html" class="shadow btn btn-primary bg-gradient btn-lg z-3" style="letter-spacing:0.1rem;">PRODUCTS</a>
+    <a href = "products.html" class="btn btn-primary bg-gradient btn-lg z-3" style="letter-spacing:0.1rem;"><span>PRODUCTS</span></a>
   </div>
 </div>
 <div class="d-flex justify-content-center rounded pt-2 pb-5">
-  <div class="border border-white rounded" style="background: repeat center/100% url(images/Planet.png);">
+  <div class="border border-white rounded" style="background: no-repeat center/100% url(images/Planet.png);">
 
       <h1 class="text-light" style="font-size:130px; text-shadow: 2px 2px #ffffff4c;">
       All things <span class="fw-bold animate__animated animate__fadeIn animate__delay-1s animate__slow" style="letter-spacing:1rem;">Art</span>.
@@ -64,7 +62,7 @@
 </div>
 <div class="d-flex justify-content-center"><i class="fa-solid fa-sharp fa-caret-down fa-2xl mt-5 py-5 animate__animated animate__bounce animate__infinite	infinite animate__delay-2s" style="color: #dfdfdf;"></i></div>
 <div class="d-flex col-md-9 col-lg-12 my-5 py-5">
-<h1 class="text-light fs-1 lead px-5 col-lg-6">boost your asset creation and rendering skills with detailed articles on <span class="fw-bold">RECIPES</span>.</h1>
+<h1 class="text-light fs-1 lead px-5 col-lg-6">Boost your asset creation and rendering skills with detailed articles on <span class="fw-bold">RECIPES</span>.</h1>
 <div class="vr opacity-100"></div>
 <h1 class="text-light fs-1 fw-bold lead px-5">Courses, 3D models, ZBrushes, SBS graphs <span class="fs-2 lead">and more on </span><span class="fw-bold">PRODUCTS</span>.</h1>
 </div>
@@ -72,10 +70,31 @@
   <div class="d-flex justify-content-center mx-5">
     <iframe class="mt-2 shadow-sm border border-1 border-primary-subtle mb-5 bg-light-subtle" src="https://docs.google.com/forms/d/e/1FAIpQLSdssA66uK3tspzfJkSOSI2KG9CyU_7-K2fDy10xZnHVqQ9yvw/viewform?embedded=true" width="400" height="350" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
   </div>
-<div class="d-flex justify-content-evenly py-4 bg-light">
-  <a href="resume.html" class="text-dark fw-bold text-lowercase">About Me</a>
-  <a href="tos.html" class="text-dark fw-bold text-lowercase">Terms of Service</a>
-</div> 
+  <div class="parent">
+  <div class="screen">  
+    <div class="screen-image"></div>  
+    <div class="screen-overlay"></div>  
+    <div class="screen-content">
+      <i class="screen-icon fa-brands fa-codepen"></i>
+      <div class="screen-user">
+        <span class="name" data-value="Future">Future</span>
+      </div>
+    </div>
+  </div>
+  </div>
+  <br>
+    <div class="img-container">
+      <img class = "imgp" src="images/1bebe8759e23ab6a1b92e1d46e2e7f12.png" alt="music-cover" id="music-cover">
+    </div>
+<footer class="d-flex justify-content-evenly py-4 bg-light">
+  <a href="resume.html" class="text-dark fw-bold ">About Me</a>
+  <a href="tos.html" class="text-dark fw-bold ">Terms of Service</a>
+</footer> 
+<div class="copyright d-flex justify-content-center align-items-center" style="height: 100px;">
+  <p style="font-family: Arial, Helvetica, sans-serif;">© 2023 - 2023 timsons.space - All Rights Reserved.</p>
+</div>
   </section>
+
+  <script src="js/js.js"></script>
 </body>
 </html>

@@ -1,0 +1,34 @@
+body{
+    background-color: black;
+    font-family: "Trirong", serif;
+}
+.reg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    margin-top: 100px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+input{
+    width: 150%;
+    background: none;
+    border: none;
+    border-bottom: 2px solid white;
+    font-size: large;
+    color: white;
+    padding-right: 50px;
+}
+button{
+    border-radius: 5px;
+    background-color: white;
+    height: 40px;
+    width: 200px;
+    font-size: large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}

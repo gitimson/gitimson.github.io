@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="fonts/my-font.ttf">
+    <link rel="shortcut icon" href="images/Unicorn.png" type="image/x-icon" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <header class="ms-2 fixed-top rounded-start border border-end-0 border-2 border-primary-emphasis bg-white shadow-sm opacity-100">
+        <nav class="navbar navbar-expand-lg px-5">
+          <a class="navbar-brand fw-bolder fst-italic text-dark fs-6 animate__animated animate__fadeInRight animate__faster" style="letter-spacing:.2em" href="index.html">Timsons</a>
+          <div class="position-relative collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+            </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+    <div class="container">
+        <div class="reg">
+            <h1 class="fw-bold">sign up (WIP)</h1> <br>
+            <div class="inputReg">
+                <div class="emailInput">
+                    <h4>email.</h4>
+                    <input type="email" name="email" id="emailInput" placeholder="" width="40%">
+                </div>
+                <div class="nameInput">
+                    <h4>name.</h4>
+                    <input type="text" name="" id="nameId" required>
+                </div>
+                <div class="surnameInput">
+                    <h4>surname.</h4>
+                    <input type="text" name="" id="surnameId" required>
+                </div>
+                <div id="phoneNum">
+                    <h4>phone.</h4>
+                    <input placeholder="+7 *** *** ** **" type="text" name="" id="phoneInp" required> 
+                </div>
+                <div class="birthInput">
+                    <h4>date of birth.</h4>
+                    <input type="date" name="" id="birthInp">
+                </div>
+                <br>
+                <div class="goalInput">
+                    <h4>What is your goal by visiting timsons.space? (optional)</h4> <br>
+                    <label for="lwChackbox">
+                        <input type="radio" name="radio" id="lwChackbox">
+                        <span>articles in the recipes page.</span>
+                    </label>
+                    <label for="qwChackbox">
+                        <input type="radio" name="radio" id="qwChackbox">
+                        <span>products.</span>
+                    </label>
+                    <label for="mrsChackbox">
+                        <input type="radio" name="radio" id="mrsChackbox">
+                        <span>just visiting.</span>
+                    </label>
+                </div>
+            </div>
+            <br>
+            <button id="submitBtn">Submit</button>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="js/scipt.js"></script>
+</body>
+</html>
